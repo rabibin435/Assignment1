@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="form-container">
+    <h2>Login Account</h2>
+
+    <form id="loginForm">
+
+        <div class="input-group">
+            <label>Name</label>
+            <input type="text" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" required>
+        </div>
+
+        <div class="input-group">
+            <label>Phone</label>
+            <input type="tel">
+        </div>
+
+        <div class="input-group">
+            <label>Date of Birth</label>
+            <input type="date">
+        </div>
+
+        <div class="input-group">
+            <label>Gender</label>
+            <select>
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
 </body>
 </html>
